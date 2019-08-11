@@ -45,8 +45,8 @@
       }
     ],
     "categoryTags" : [
-      "vocab",
-      "syntax"
+      "syntax",
+      "vocab"
     ],
     "difficulty" : 0,
     "prompt" : "\/\/ Identify the value of the variable in the following code:\n\nlet value = String(\"Steve\")\n"
@@ -77,5 +77,58 @@
     ],
     "difficulty" : 0,
     "prompt" : "\/\/ Identify the type of the variable in the following code:\n\nlet value = String(\"Steve\")\n"
+  },
+  {
+    "answers" : [
+      {
+        "answerText" : "clearValue",
+        "isCorrect" : false
+      },
+      {
+        "answerText" : "\/\/ It conforms to any viewController that it segues from",
+        "isCorrect" : false
+      },
+      {
+        "answerText" : "resetNumbers()",
+        "isCorrect" : false
+      },
+      {
+        "answerText" : "UIViewController",
+        "isCorrect" : true
+      }
+    ],
+    "categoryTags" : [
+      "vocab",
+      "types"
+    ],
+    "difficulty" : 0,
+    "prompt" : "\/\/ What does NumberViewController conform to?\n\nclass NumberViewController: UIViewController {\n\t\n\tlet clearValue = \"0.00\"\n\t\n\tfunc resetNumbers() {\n\t\tnumberTextfield.text = clearValue\n\t}\n}"
+  },
+  {
+    "answers" : [
+      {
+        "answerText" : "clearValue",
+        "isCorrect" : false,
+        "reason" : "\/\/ clearValue is an instance property of NumberViewController"
+      },
+      {
+        "answerText" : "\/\/ It conforms to any viewController that it segues from",
+        "isCorrect" : false
+      },
+      {
+        "answerText" : "resetNumbers()",
+        "isCorrect" : false
+      },
+      {
+        "answerText" : "UIViewController",
+        "isCorrect" : true
+      }
+    ],
+    "categoryTags" : [
+      "vocab",
+      "types"
+    ],
+    "difficulty" : 0,
+    "prompt" : "\/\/ What is the super class of NumberViewController?\n\nclass NumberViewController: UIViewController {\n\t\n\tlet clearValue = \"0.00\"\n\t\n\tfunc resetNumbers() {\n\t\tnumberTextfield.text = clearValue\n\t}\n}"
   }
 ]

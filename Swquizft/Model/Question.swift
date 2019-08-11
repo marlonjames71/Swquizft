@@ -16,6 +16,7 @@ struct Question: Codable, Equatable {
 		case vocab
 		case delegates
 		case codable
+		case functions
 		case misc
 	}
 
